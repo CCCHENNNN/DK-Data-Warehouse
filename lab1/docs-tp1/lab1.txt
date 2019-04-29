@@ -1,0 +1,13 @@
+1.1
+egrep '^aa' words
+egrep -c 'hard' words
+egrep --color='auto' '[^aeiouy]{6}' words
+egrep --color='auto' '([a-zA-Z])\1\1' words
+
+1.2
+???并没有什么变化
+
+1.3
+..........
+
+1.4

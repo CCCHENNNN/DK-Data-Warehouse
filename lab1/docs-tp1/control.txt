@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'codes_postaux.csv'
+TRUNCATE
+INTO TABLE codesPostaux
+FIELDS TERMINATED BY ';'
+(insee,nom_commune,zip, LIBELLE,dum1)
+

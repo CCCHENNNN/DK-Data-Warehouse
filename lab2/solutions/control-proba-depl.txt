@@ -1,0 +1,9 @@
+LOAD DATA INFILE 'depl.csv'
+TRUNCATE
+INTO TABLE d
+FIELDS TERMINATED BY ','
+( xo,
+yo,
+xd,
+yd
+)
